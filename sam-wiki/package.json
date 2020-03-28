@@ -1,0 +1,19 @@
+{
+  "name": "sam_wiki",
+  "version": "1.0.0",
+  "description": "sam wiki for NodeJS",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "wikijs": "6.0.1"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000 tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
